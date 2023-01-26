@@ -1,4 +1,4 @@
-package baekjoon.silver;
+package baekjoon.silver.s3;
 
 import java.io.*;
 import java.util.*;
@@ -14,7 +14,6 @@ public class S3Q9375 {
             int cnt = 1;
             for(int j=0;j<m;j++){
                 StringTokenizer st = new StringTokenizer(br.readLine());
-                String name = st.nextToken();
                 String kind = st.nextToken();
                 map.put(kind, map.getOrDefault(kind,0)+1);
             }
