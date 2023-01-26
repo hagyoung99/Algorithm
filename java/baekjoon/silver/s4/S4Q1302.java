@@ -1,4 +1,4 @@
-package baekjoon.silver;
+package baekjoon.silver.s4;
 
 import java.io.*;
 import java.util.*;
